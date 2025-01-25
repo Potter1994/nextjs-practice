@@ -6,6 +6,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 # 學習筆記
 
-- app route 在 app folder 底下的 folder 只有 folder 內的 page file 會是公開的
+- 4. app route 在 app folder 底下的 folder 只有 folder 內的 page file 會是公開的
 
-- layout.tsx 可以接收 children 把同層或底下 page.tsx 或者底下的 layout.ts 當作 children 傳入
+- 4. layout.tsx 可以接收 children 把同層或底下 page.tsx 或者底下的 layout.ts 當作 children 傳入
+
+- 5. Link 可以不用整個頁面重新載入，如果在 production environment 下 viewport 有看到 Link 的 Next.js 還會自動 prefetch code for the linked route in the background
